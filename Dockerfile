@@ -1,1 +1,1 @@
-FROM quay.io/ortoo/private-event-function-runner
+FROM quay.io/ortoo/event-function-runner
