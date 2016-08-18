@@ -1,0 +1,37 @@
+{
+  "name": "updated-object-analytics",
+  "version": "0.0.0",
+  "description": "Notifies analytics services from updated objects",
+  "homepage": "",
+  "author": {
+    "name": "James Sharp",
+    "email": "james@ortootech.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "eslint": "^2.1.0",
+    "eslint-config-xo-space": "^0.13.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "ortoo/updated-object-analytics",
+  "dependencies": {
+    "analytics-node": "^2.1.0",
+    "bluebird": "^3.4.1",
+    "config": "^1.21.0",
+    "intercom-client": "^2.8.0",
+    "lodash": "^4.14.2",
+    "mongodb": "^2.2.5"
+  }
+}
